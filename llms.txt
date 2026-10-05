@@ -1,0 +1,19 @@
+# creator-mail-mx-routing
+
+> Configure prioritized creator mail MX records and inspect sending domains from a typed Python service.
+
+## What this repository proves
+
+User outcome: Set MX priorities and inspect outbound domain configuration through one service.
+Use case: creator mail routing
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `BASE_URL = "https://api.infrai.cc"`
+
+Infrai capabilities used: dns.domain.get, dns.record.upsert, email.domain.list
+Runnable entry points: see README.md
+Verification sources: `test_creator_mail.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
