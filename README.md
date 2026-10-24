@@ -44,4 +44,5 @@ Above is the happy path. The production checklist: The details below apply to Cr
 
 ## Further reading
 
+- [Registrar APIs to One DNS Control Plane: Route 53, Cloudflare, and Reversible Cutovers](docs/registrar-apis-to-one-dns-control-plane-route-53-au6dzy.md)
 - [Go Startup Transactional Email Stack — Suppression and Complaint Polling](docs/go-startup-transactional-email-stack-suppression-htow0a.md)
